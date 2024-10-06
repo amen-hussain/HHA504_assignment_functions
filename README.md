@@ -79,4 +79,9 @@ When I attempted to create my first serverless function "http_trigger1" an error
 ### 3. Explore Functions as a Service (FaaS)
 - Reflect on the use cases for serverless functions in cloud environments. Consider the benefits and limitations of using Functions as a Service (FaaS) in both Azure and GCP.
 
+Azure Functions and GCP Functions, allows for cost-effective pay-per-execution pricing model, which aid event-driven applications, microservices, real-time data processing, and scheduled tasks. This was confirmed in my own deployment of a serverless function in Azure and GCP. 
+
+Furthermore, FaaS can be integrated with cron jobs to automate tasks, such as running a Python script to generate a report at scheduled intervals. This automation streamlines workflows and ensures that tasks are performed consistently.
+
+A limitation I discovered is that functions may need to be refreshed if not loaded properly or loaded after a period of inactivity. 
 
