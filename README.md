@@ -64,6 +64,16 @@ When I attempted to create my first serverless function "http_trigger1" an error
   - Create a new GitHub repository (or use an existing one).
   - Set up a GitHub Action workflow that runs a script on a schedule (e.g., daily at midnight). You can use a simple script that logs "Scheduled task executed" to the console.
 
+1. Navigate to the respoitory "HHA504_assignment_functions"
+2. Click Actions.
+3. Select "Simple workflow" and configure.
+4. Change the name of the file to Cron_Job.yml
+5. Enter code that allows for the the script to run on a schedule.
+6. Commit changes.
+
+<img width="1419" alt="image" src="https://github.com/user-attachments/assets/5d0a3ef4-3772-4a92-a235-29afe8639451">
+
+
 ### 3. Explore Functions as a Service (FaaS)
 - Reflect on the use cases for serverless functions in cloud environments. Consider the benefits and limitations of using Functions as a Service (FaaS) in both Azure and GCP.
 
