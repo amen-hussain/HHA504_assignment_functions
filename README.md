@@ -38,6 +38,27 @@ When I attempted to create my first serverless function "http_trigger1" an error
   - Access the Google Cloud Console and create a Google Cloud Function.
   - Deploy a similar function with an HTTP trigger in GCP.
 
+1. Navigate to Cloud Run Functions.
+2. Create Function. Enable APIs when prompted. 
+<img width="1151" alt="image" src="https://github.com/user-attachments/assets/0c38c49d-20ef-4e76-80e8-735b3cb08362">
+
+3. Set configurations to: Cloud run function for environment, function name to assignment-504, trigger type to HTTPS, and allow unauthenticated invocations. Enable APIs. 
+<img width="474" alt="image" src="https://github.com/user-attachments/assets/b35f9c84-b1a5-423a-b697-90233a045675">
+
+4. Under Runtime: Change autoscaling to 3 for maximum number of instances. 
+5. Click Next.
+6. Change Runtime to Python 3.10.
+7. Select "run test" and wait approximately 1-2 minutes for the triggering event. Authorize pop ups that appear in the terminal as they come up. 
+<img width="1149" alt="image" src="https://github.com/user-attachments/assets/05497055-91f9-4a69-bef1-38d0c2eb6fad">
+<img width="508" alt="image" src="https://github.com/user-attachments/assets/e4803be8-dca9-4b98-b73f-bbeb8094e228">
+
+
+
+<img width="1155" alt="image" src="https://github.com/user-attachments/assets/272d421d-1c93-46b6-8bdc-e5be86b69f69">
+<img width="1146" alt="image" src="https://github.com/user-attachments/assets/aa7a7930-9837-4ef0-9bf9-d102776a632f">
+
+
+
 ### 2. Create a Cron Job
 - **GitHub Actions:**
   - Create a new GitHub repository (or use an existing one).
