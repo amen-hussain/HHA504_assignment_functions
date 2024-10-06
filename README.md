@@ -53,7 +53,6 @@ When I attempted to create my first serverless function "http_trigger1" an error
 <img width="508" alt="image" src="https://github.com/user-attachments/assets/e4803be8-dca9-4b98-b73f-bbeb8094e228">
 
 
-
 <img width="1155" alt="image" src="https://github.com/user-attachments/assets/272d421d-1c93-46b6-8bdc-e5be86b69f69">
 <img width="1146" alt="image" src="https://github.com/user-attachments/assets/aa7a7930-9837-4ef0-9bf9-d102776a632f">
 
@@ -72,6 +71,9 @@ When I attempted to create my first serverless function "http_trigger1" an error
 6. Commit changes.
 
 <img width="1419" alt="image" src="https://github.com/user-attachments/assets/5d0a3ef4-3772-4a92-a235-29afe8639451">
+
+7. To verify the workflow, I went back to the respository, clicked actions, and was able to see "Scheduled Cron Job" as a tab on the left side. Since it is scheduled to run at midnight, there are currently no runs.
+<img width="937" alt="image" src="https://github.com/user-attachments/assets/73b69d55-addd-4eeb-9b2e-814940497389">
 
 
 ### 3. Explore Functions as a Service (FaaS)
