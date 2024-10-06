@@ -79,11 +79,4 @@ When I attempted to create my first serverless function "http_trigger1" an error
 ### 3. Explore Functions as a Service (FaaS)
 - Reflect on the use cases for serverless functions in cloud environments. Consider the benefits and limitations of using Functions as a Service (FaaS) in both Azure and GCP.
 
-### 4. Submit Your Work
-- Create a Markdown document that includes:
-  - Screenshots of the serverless function deployment process in both Azure and GCP.
-  - The code and configuration of your GitHub Action workflow.
-  - Screenshots or documentation of the GCP Cloud Scheduler setup.
-  - A brief reflection on the use cases, benefits, and limitations of serverless functions.
-- Commit and push this Markdown document, along with the screenshots and code, to your GitHub repository.
 
